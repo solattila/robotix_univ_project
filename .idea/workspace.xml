@@ -17,8 +17,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00cc521f-50d0-41d6-ae2b-3723f5c96249" name="Default Changelist" comment="General setup">
+      <change afterPath="$PROJECT_DIR$/assets/robot01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/robot02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/robot03.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gifts.html" beforeDir="false" afterPath="$PROJECT_DIR$/gifts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/robot.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport.html" beforeDir="false" afterPath="$PROJECT_DIR$/transport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +50,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kFyeK2cxP55w3LvKwdZzS8w5BI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../web_develop/web_layout" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,6 +78,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\computer_science_bsc\1. félév\Web programozás I\beadando" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\computer_science_bsc\1. félév\Web programozás I\beadando\assets" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beadando/index.html" useBuiltInWebServerPort="true">
@@ -74,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -132,6 +147,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="General setup" />
     <option name="LAST_COMMIT_MESSAGE" value="General setup" />
   </component>
