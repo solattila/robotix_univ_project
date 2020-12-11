@@ -7,11 +7,18 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:navbar" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00cc521f-50d0-41d6-ae2b-3723f5c96249" name="Default Changelist" comment="">
+    <list default="true" id="00cc521f-50d0-41d6-ae2b-3723f5c96249" name="Default Changelist" comment="General setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +34,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kFyeK2cxP55w3LvKwdZzS8w5BI" />
@@ -36,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -47,7 +60,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -74,8 +87,21 @@
       <option name="presentableId" value="Default" />
       <updated>1605310728052</updated>
       <workItem from="1605310731015" duration="6690000" />
-      <workItem from="1605399094392" duration="1119000" />
+      <workItem from="1605399094392" duration="2041000" />
+      <workItem from="1605436718717" duration="269000" />
+      <workItem from="1605437000906" duration="133000" />
+      <workItem from="1605476481669" duration="430000" />
+      <workItem from="1607681562160" duration="647000" />
+      <workItem from="1607711823999" duration="408000" />
     </task>
+    <task id="LOCAL-00001" summary="General setup">
+      <created>1605400337654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605400337654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,84 +112,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="navbar" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1373" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605311728951">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1373" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605311728951" />
-    <state width="1254" height="202" key="GridCell.Tab.0.bottom" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.0.bottom/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.0.center" timestamp="1605353317442">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.0.center/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317442" />
-    <state width="1254" height="202" key="GridCell.Tab.0.left" timestamp="1605353317442">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.0.left/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317442" />
-    <state width="1254" height="202" key="GridCell.Tab.0.right" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.0.right/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.1.bottom" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.1.bottom/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.1.center" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.1.center/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.1.left" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.1.left/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.1.right" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.1.right/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.2.bottom" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.2.bottom/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.2.center" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.2.center/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.2.left" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.2.left/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.2.right" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.2.right/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.3.bottom" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.3.bottom/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.3.center" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.3.center/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.3.left" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.3.left/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state width="1254" height="202" key="GridCell.Tab.3.right" timestamp="1605353317443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1254" height="202" key="GridCell.Tab.3.right/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605353317443" />
-    <state x="283" y="408" key="SettingsEditor" timestamp="1605400213641">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="283" y="408" key="SettingsEditor/-1600.0.1600.860/0.0.2560.1400@0.0.2560.1400" timestamp="1605400213641" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="General setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="General setup" />
   </component>
 </project>
