@@ -281,7 +281,7 @@ function cartList() {
     for (var i = 0; i < shoppingListItems.length; i++){
         if (shoppingListItems[i].count > 0){
             text = text + shoppingListItems[i].name + ": " + shoppingListItems[i].count + "db  " +
-                shoppingListItems[i].count*shoppingListItems[i].price + " RoboCoin\n";
+                shoppingListItems[i].count*shoppingListItems[i].price + " RoboCoin<br>";
             sum = sum + shoppingListItems[i].count*shoppingListItems[i].price;
         }
     }
@@ -304,7 +304,7 @@ function cartList() {
     Swal.fire({
         title: 'A kosár tartalma',
         width: 600,
-        text: text,
+        html: text,
         padding: '3em',
         backdrop: `
     rgba(0,0,123,0.4)
