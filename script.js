@@ -281,7 +281,7 @@ function cartList() {
     for (var i = 0; i < shoppingListItems.length; i++){
         if (shoppingListItems[i].count > 0){
             text = text + shoppingListItems[i].name + ": " + shoppingListItems[i].count + "db  " +
-                shoppingListItems[i].count*shoppingListItems[i].price + " RoboCoin<br>";
+                shoppingListItems[i].count*shoppingListItems[i].price + " RoboCoin<br><br>";
             sum = sum + shoppingListItems[i].count*shoppingListItems[i].price;
         }
     }
@@ -297,7 +297,7 @@ function cartList() {
 
 
 
-    var text2 = 'összesen: ' + sum + ' RoboCoin'
+    var text2 = '<br><b>összesen: ' + sum + ' RoboCoin</b>'
 
     text = text + text2;
 
