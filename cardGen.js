@@ -45,9 +45,15 @@ function generateCard() {
 
         var addBtn = document.createElement("button");
         addBtn.type = "button";
-        addBtn.className = "btn";
+        addBtn.className = "addbtn";
         addBtn.id = i;
         addBtn.innerHTML = "Hozzáadás a kosárhoz.";
+
+        var delBtn = document.createElement("button");
+        delBtn.type = "button";
+        delBtn.className = "delbtn";
+        delBtn.id = i;
+        delBtn.innerHTML = "Elvétel a kosárból.";
 
 
         ul.appendChild(liName);
@@ -57,7 +63,10 @@ function generateCard() {
         ul.appendChild(liStorage);
 
         cardFooter.appendChild(addBtn);
-        cardFooter.querySelector("button").addEventListener("click", addToCart);
+        cardFooter.querySelector("button.addbtn").addEventListener("click", addToCart);
+
+        cardFooter.appendChild(delBtn);
+        cardFooter.querySelector("button.delbtn").addEventListener("click", delFromCart);
 
         card.appendChild(image);
         card.appendChild(ul);

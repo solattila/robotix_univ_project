@@ -266,6 +266,24 @@ function addToCart() {
 
 }
 
+function delFromCart() {
+    i = parseInt(this.id);
+    console.log(i);
+    if (shoppingListItems[i].count > 0) {
+        shoppingListItems[i].count--;
+        shoppingListItems[i].storage++;
+        generateCard();
+        console.log(shoppingListItems[i].count);
+    }
+    else Swal.fire({
+        icon: 'error',
+        title: 'Hoppáááá',
+        text: 'Azt hiszem ebből már nincs több a kosárban!',
+    })
+
+
+}
+
 
 function cartList() {
     for (var index = 0; index < shoppingListItems.length; index++) {
